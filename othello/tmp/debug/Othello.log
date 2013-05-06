@@ -1,0 +1,20 @@
+﻿Build started 5/5/2013 4:37:14 PM.
+     1>Project "C:\Users\trinh_000\Desktop\othello\vs\Othello.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../src/othello /I../src/mfc /I../vs/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"../tmp/debug\\" /Fd"../tmp/debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\mfc\COthelloDoc.cpp ..\src\mfc\COthelloMainFrm.cpp ..\src\mfc\COthelloView.cpp ..\src\mfc\Othello.cpp ..\src\mfc\stdafx.cpp
+         stdafx.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h(29): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+         Othello.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h(29): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+         COthelloView.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h(29): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+         COthelloMainFrm.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h(29): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+         COthelloDoc.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h(29): fatal error C1189: #error :  This file requires _WIN32_WINNT to be #defined at least to 0x0403. Value 0x0501 or higher is recommended.
+         Generating Code...
+     1>Done Building Project "C:\Users\trinh_000\Desktop\othello\vs\Othello.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.19

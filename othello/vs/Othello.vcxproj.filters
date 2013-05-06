@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3ce8ae58-335e-4aa4-ae28-428f58ee8135}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="src\mfc">
+      <UniqueIdentifier>{a4f9076b-2c0b-4f29-a4cf-f76674b5d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\othello">
+      <UniqueIdentifier>{9537e602-33d3-42f8-b3f5-3f61d61c37a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rc">
+      <UniqueIdentifier>{16f2d2cc-bfa5-4c41-acb6-1152d8a9e2f9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\mfc\COthelloDoc.cpp">
+      <Filter>src\mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mfc\COthelloMainFrm.cpp">
+      <Filter>src\mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mfc\COthelloView.cpp">
+      <Filter>src\mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mfc\Othello.cpp">
+      <Filter>src\mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mfc\stdafx.cpp">
+      <Filter>src\mfc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\othello\COthelloBoard.cpp">
+      <Filter>src\othello</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\mfc\COthelloDoc.h">
+      <Filter>src\mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mfc\COthelloMainFrm.h">
+      <Filter>src\mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mfc\COthelloView.h">
+      <Filter>src\mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mfc\Othello.h">
+      <Filter>src\mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\mfc\stdafx.h">
+      <Filter>src\mfc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\othello\CConfigFile.h">
+      <Filter>src\othello</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\othello\COthelloBoard.h">
+      <Filter>src\othello</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\othello\CPool.h">
+      <Filter>src\othello</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>rc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\othello\COthelloBoard.inl">
+      <Filter>src\othello</Filter>
+    </None>
+    <None Include="res\Othello.rc2">
+      <Filter>rc</Filter>
+    </None>
+    <None Include="Othello.reg">
+      <Filter>rc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Othello.ico">
+      <Filter>rc</Filter>
+    </Image>
+    <Image Include="res\OthelloDoc.ico">
+      <Filter>rc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Othello.rc">
+      <Filter>rc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
